@@ -11,8 +11,8 @@ Open a terminal:
 ```bash
 $ curl https://install.meteor.com | /bin/sh
 $ cd ~
-$ git clone git@github.com:pointbar/bralador-md.git
-$ cd bralador-md
+$ git clone git@github.com:scopyleft/bralador.git
+$ cd bralador
 $ sudo -H npm install -g meteorite
 $ mrt update
 $ mrt run
@@ -54,7 +54,7 @@ $ cd ~/bralador-md
 $ meteor deploy http://www.myblog.com
 ```
     
-Open http://www.myblog.com in your browser.
+Open your url in your browser.
 
 ## Copyright & License
 
