@@ -1,0 +1,43 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+}
+
+nav.cards-list {
+  opacity: .7;
+  margin-top: 40px;
+}
+
+div#card {
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 1.5;
+  color: rgba(0,0,0,0.8);
+  margin-bottom: 30px;
+}
+
+div#card h1, div#card h2, div#card h3 {
+  font-family: "Quattrocento", serif;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 40px;
+}
+
+div#card h1 {
+  font-size: 60px;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+div#card h2 {
+  font-size: 36px;
+  margin-bottom: 4px;
+}    
+
+div#card h3 {
+  font-size: 30px;
+  font-weight: 300;
+  color: rgba(0,0,0,0.44);
+  margin-bottom: 2px;
+}
