@@ -56,6 +56,10 @@ $ meteor deploy http://www.myblog.com
     
 Open your url in your browser.
 
+## RoadMap
+RSS
+http://book.discovermeteor.com/chapter/rss-api
+
 ## Copyright & License
 
 MIT.

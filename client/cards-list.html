@@ -4,7 +4,7 @@
     <ul class="list-group">
       {{#each cards}}
         <li class="list-group-item"><span class="label label-info pull-right">        
-          {{tag}}</span><a href='/fiche/{{slug}}'>{{title}}</a>
+          {{tag}}</span><a href='{{pathFor 'card' slug=this.slug}}'>{{title}}</a>
         </li>
       {{/each}}
     </ul>
