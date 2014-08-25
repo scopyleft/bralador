@@ -1,10 +1,11 @@
-Template.cardsList.cards = function () {
-  return Cards.find();
-};
+Template.cardsList.helpers({
+  cards: function () {
+    return Cards.find({}, {fields: {content: 0}});
+  }
+});
 
 Template.cardsList.events({
   'click a': function () {
-    $('div#card').hide();
-    $('div#card').fadeIn(1000);
+    $('div#card').hide().fadeIn(1000);
   }
 });
