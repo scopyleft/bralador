@@ -1,6 +1,11 @@
 <template name="cardsList">
   <nav class="cards-list panel panel-info">
-    <div class="panel-heading">Posts</div>
+    <div class="panel-heading">Posts
+        <a class="pull-right" href="/feed/rss.xml">
+      <img src="feed-icon.png" alt="rss">
+    </a>
+    
+    </div>
     <ul class="list-group">
       {{#each cards}}
         <li class="list-group-item"><span class="label label-info pull-right">        
