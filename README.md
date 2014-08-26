@@ -60,6 +60,15 @@ Open your url in your browser.
 RSS
 http://book.discovermeteor.com/chapter/rss-api
 
+MMD
+https://github.com/dtjm/node-multimarkdown
+https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide
+
+404
+
+- RSS Description
+- Blog title
+
 ## Copyright & License
 
 MIT.
