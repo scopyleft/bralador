@@ -1,15 +1,21 @@
 <template name="cardsList">
   <nav id="cards-list" class="panel panel-info">
     <div class="panel-heading">Posts
+      {{#if all}}
+      <a href='{{pathFor 'home'}}' class="label label-success">all</a>
+      {{/if}}
       <a class="pull-right" href="/feed/rss.xml">
-        <img src="feed-icon.png" alt="rss">
+        <img src="/feed-icon.png" alt="rss">
       </a>
     
     </div>
     <ul class="list-group">
       {{#each cards}}
-        <li class="list-group-item"><span class="label label-info pull-right">        
-          {{tag}}</span><a href='{{pathFor 'card' slug=this.slug}}'>{{title}}</a>
+        <li class="list-group-item">
+          <a href='{{pathFor 'card' slug=this.slug}}'>{{title}}</a>
+          <a href='{{pathFor 'tag-filter' tag=this.tag}}' class="label label-info pull-right">
+            {{tag}}
+          </a>
         </li>
       {{/each}}
     </ul>

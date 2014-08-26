@@ -1,6 +1,10 @@
 Template.cardsList.helpers({
   cards: function () {
-    return Cards.find({}, {fields: {content: 0}});
+    var query = (this.tagQuery) ? {tag: this.tagQuery} : {};
+    return Cards.find(query, {fields: {content: 0}});
+  },
+  all: function () {
+    return (this.tagQuery);
   }
 });
 
