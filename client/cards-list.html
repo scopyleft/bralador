@@ -13,9 +13,11 @@
       {{#each cards}}
         <li class="list-group-item">
           <a href='{{pathFor 'card' slug=this.slug}}'>{{title}}</a>
+          {{#if tag}}
           <a href='{{pathFor 'tag-filter' tag=this.tag}}' class="label label-info pull-right">
             {{tag}}
           </a>
+          {{/if}}
         </li>
       {{/each}}
     </ul>
