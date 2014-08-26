@@ -3,9 +3,13 @@ body {
   font-style: normal;
 }
 
-nav.cards-list {
+nav#cards-list {
   opacity: .7;
   margin-top: 40px;
+}
+
+nav#cards-list .panel-heading img {
+  vertical-align: baseline;
 }
 
 div#card {
