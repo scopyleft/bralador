@@ -8,10 +8,10 @@ Meteor.startup(function () {
     });
   });
 
-  Assets.getText("_metadata.json", function (err, metadata) {
+  Assets.getText("contribution/_metadata.json", function (err, metadata) {
     Cards.remove({});
     _.each(JSON.parse(metadata), function (card) {
-      Assets.getText(card.slug + ".md", function (err, content) {
+      Assets.getText("contribution/" + card.slug + ".md", function (err, content) {
         card.content = content;
         Cards.insert(card);
       });
