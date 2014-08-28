@@ -1,5 +1,5 @@
 <template name="cardsList">
-  <nav id="cards-list" class="panel panel-info">
+  <nav id="cards-list" class="panel">
     <div class="panel-heading">Posts
       {{#if all}}
       <a href='{{pathFor 'home'}}' class="label label-success">all</a>
@@ -7,7 +7,6 @@
       <a class="pull-right" href="{{pathFor 'feed'}}">
         <img src="/feed-icon.png" alt="rss">
       </a>
-    
     </div>
     <ul class="list-group">
       {{#each cards}}

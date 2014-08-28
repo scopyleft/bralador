@@ -1,5 +1,5 @@
 Template.nav.helpers({
   blogTitle: function () {
-    return Session.get("blogTitle");
+    return Session.get("blogName");
   }
 });

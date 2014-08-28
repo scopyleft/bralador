@@ -11,5 +11,11 @@ Template.cardsList.helpers({
 Template.cardsList.events({
   'click a': function () {
     $('div#card').hide().fadeIn(1000);
+  },
+  'mouseover': function () {
+    $('nav#cards-list').css({opacity: 1});
+  },
+  'mouseout': function () {
+    $('nav#cards-list').css({opacity: 0.7});
   }
 });
