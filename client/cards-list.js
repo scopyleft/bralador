@@ -10,7 +10,7 @@ Template.cardsList.helpers({
 
 Template.cardsList.events({
   'click a': function () {
-    $('div#card').hide().fadeIn(1000);
+    $('div#card').hide().fadeIn(300);
   },
   'mouseover': function () {
     $('nav#cards-list').css({opacity: 1});
