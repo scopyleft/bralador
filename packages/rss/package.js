@@ -1,10 +1,15 @@
 Package.describe({
-  summary: "RSS feed generator"
+  summary: "RSS feed generator",
+  version: "0.1.0",
 });
 Npm.depends({rss: '0.0.4'});
 
 Package.on_use(function (api) {
-  api.add_files('rss.js', 'server');
-  if(api.export)
-    api.export('RSS');
+  api.versionsFrom('METEOR@0.9.0.1');
+  api.add_files([
+    'lib/server/rss-npm.js',
+    'lib/server/rss.js',
+    'lib/server/route.js'
+  ], ['server']);
+  api.export(['serveRSS']);
 });
