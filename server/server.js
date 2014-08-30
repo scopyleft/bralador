@@ -9,17 +9,17 @@ Meteor.startup(function () {
   });
 
   Assets.getText("contribution/_metadata.json", function (err, metadata) {
-    Cards.remove({});
-    _.each(JSON.parse(metadata), function (card) {
-      Assets.getText("contribution/" + card.slug + ".md", function (err, content) {
-        card.content = content;
-        Cards.insert(card);
+    Posts.remove({});
+    _.each(JSON.parse(metadata), function (post) {
+      Assets.getText("contribution/" + post.slug + ".md", function (err, content) {
+        post.content = content;
+        Posts.insert(post);
       });
     });
   });
 
-  Meteor.publish("all-cards", function () {
-    return Cards.find();
+  Meteor.publish("all-posts", function () {
+    return Posts.find();
   });
   
 });

@@ -3,19 +3,19 @@ body {
   font-style: normal;
 }
 
-nav#cards-list {
+nav#posts-list {
   margin-top: 40px;
 }
 
-nav#cards-list ul li {
+nav#posts-list ul li {
   border: none;
 }
 
-nav#cards-list .panel-heading img {
+nav#posts-list .panel-heading img {
   vertical-align: baseline;
 }
 
-div#card {
+div#post {
   font-family: 'Quattrocento Sans', sans-serif;
   font-weight: 100;
   font-size: 22px;
@@ -24,25 +24,25 @@ div#card {
   margin-bottom: 30px;
 }
 
-div#card h1, div#card h2, div#card h3 {
+div#post h1, div#post h2, div#post h3 {
   font-family: "Quattrocento", serif;
   font-weight: 700;
   line-height: 1.2;
   margin-top: 40px;
 }
 
-div#card h1 {
+div#post h1 {
   font-size: 60px;
   line-height: 1;
   margin-bottom: 8px;
 }
 
-div#card h2 {
+div#post h2 {
   font-size: 36px;
   margin-bottom: 4px;
 }    
 
-div#card h3 {
+div#post h3 {
   font-size: 30px;
   font-weight: 300;
   color: rgba(0,0,0,0.44);

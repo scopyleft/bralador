@@ -1,1 +1,1 @@
-Cards = new Meteor.Collection("cards");
+Posts = new Meteor.Collection("posts");

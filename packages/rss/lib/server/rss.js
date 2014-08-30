@@ -6,7 +6,7 @@ serveRSS = function () {
     site_url: Meteor.absoluteUrl()
   });
   
-  Cards.find({}, {limit: 20}).forEach(function (post) {
+  Posts.find({}, {limit: 20}).forEach(function (post) {
     feed.item({
       title: post.slug,
       description: post.title,
