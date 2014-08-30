@@ -15,12 +15,16 @@ nav#posts-list .panel-heading img {
   vertical-align: baseline;
 }
 
+nav#posts-list .panel-heading {
+  border-bottom: 1px solid #aaa;
+}
+
 div#post {
   font-family: 'Quattrocento Sans', sans-serif;
-  font-weight: 100;
-  font-size: 22px;
+  font-weight: 600;
+  font-size: 20px;
   line-height: 1.5;
-  color: rgba(0,0,0,0.8);
+  color: rgba(0,0,0,0.7);
   margin-bottom: 30px;
 }
 
@@ -32,7 +36,7 @@ div#post h1, div#post h2, div#post h3 {
 }
 
 div#post h1 {
-  font-size: 60px;
+  font-size: 50px;
   line-height: 1;
   margin-bottom: 8px;
 }
