@@ -1,18 +1,25 @@
 body {
+  background: #F8F8F8;
   -webkit-font-smoothing: antialiased;
   font-style: normal;
 }
 
 nav#posts-list {
   margin-top: 40px;
+  background: transparent;
 }
 
 nav#posts-list ul li {
   border: none;
+  background: transparent;
 }
 
 nav#posts-list .panel-heading img {
   vertical-align: baseline;
+}
+
+nav#posts-list ul li {
+  border: none;
 }
 
 nav#posts-list .panel-heading {
@@ -20,7 +27,7 @@ nav#posts-list .panel-heading {
 }
 
 div#post {
-  font-family: 'Quattrocento Sans', sans-serif;
+  font-family: "Quattrocento", serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 1.5;
@@ -29,7 +36,7 @@ div#post {
 }
 
 div#post h1, div#post h2, div#post h3 {
-  font-family: "Quattrocento", serif;
+  font-family: 'Quattrocento Sans', sans-serif;
   font-weight: 700;
   line-height: 1.2;
   margin-top: 40px;
