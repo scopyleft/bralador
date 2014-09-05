@@ -1,8 +1,8 @@
 <template name="postsList">
-  <nav id="posts-list" class="panel">
+  <nav class="posts-list panel">
     <div class="panel-heading">Posts
       {{#if all}}
-      <a href='{{pathFor 'home'}}' class="label label-success">all</a>
+      <a href="{{pathFor 'home'}}" class="label label-success">all</a>
       {{/if}}
       <a class="pull-right" href="/feed.xml">
         <img src="/feed-icon.png" alt="rss">
@@ -11,9 +11,9 @@
     <ul class="list-group">
       {{#each posts}}
         <li class="list-group-item">
-          <a href='{{pathFor 'post' slug=this.slug}}'>{{title}}</a>
+          <a href="{{pathFor 'post' slug=this.slug}}">{{title}}</a>
           {{#if tag}}
-          <a href='{{pathFor 'tag-filter' tag=this.tag}}' class="label label-info pull-right">
+          <a href="{{pathFor 'tag-filter' tag=this.tag}}" class="label label-info pull-right">
             {{tag}}
           </a>
           {{/if}}

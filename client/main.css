@@ -4,56 +4,57 @@ body {
   font-style: normal;
 }
 
-nav#posts-list {
+.posts-list {
   margin-top: 40px;
   background: transparent;
 }
 
-nav#posts-list ul li {
+.posts-list ul li {
   border: none;
   background: transparent;
 }
 
-nav#posts-list .panel-heading img {
+.posts-list .panel-heading img {
   vertical-align: baseline;
 }
 
-nav#posts-list ul li {
+.posts-list ul li {
   border: none;
 }
 
-nav#posts-list .panel-heading {
+.posts-list .panel-heading {
   border-bottom: 1px solid #aaa;
 }
 
-div#post {
+.post {
   font-family: "Quattrocento", serif;
-  font-weight: 600;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 1.5;
-  color: rgba(0,0,0,0.7);
+  color: rgba(0,0,0,0.8);
   margin-bottom: 30px;
 }
 
-div#post h1, div#post h2, div#post h3 {
+.post h1,
+.post h2,
+.post h3 {
   font-family: 'Quattrocento Sans', sans-serif;
   font-weight: 700;
   line-height: 1.2;
   margin-top: 40px;
 }
 
-div#post h1 {
-  font-size: 50px;
+.post h1 {
+  font-size: 40px;
   line-height: 1;
   margin-bottom: 8px;
 }
 
-div#post h2 {
+.post h2 {
   font-size: 36px;
   margin-bottom: 4px;
-}    
+}
 
-div#post h3 {
+.post h3 {
   font-size: 30px;
   font-weight: 300;
   color: rgba(0,0,0,0.44);
