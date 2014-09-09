@@ -23,13 +23,31 @@ $ meteor
 
 Open http://localhost:3000 in your browser.
 
+## Configure infos
+
+Open *private/_infos.json* file
+
+* "name": Name of your product, it appear in top left corner
+* "title": Window name
+* "menu_title": Title of posts menu
+
+* "staging": Meteor project name, it's deploy on : name.meteor.com
+* "prod": Domain name of production environment
+
+
 ## Writing posts
 
-* Set the global information in /private/infos.js.
-* Place your markdown document in /private folder.
-* Set your metadatas for each document /private/metadata.js.
+[README](https://github.com/scopyleft/bralador-contribution/blob/master/README.md)
 
 ## Deploy your website
+
+### Lazy deploy
+
+Just launch deploy script :
+$ ./deploy
+
+The script try to actualize github environment.
+In second time, it tries to deploy on staging and production environment.
 
 ### Local
 Open a terminal:
