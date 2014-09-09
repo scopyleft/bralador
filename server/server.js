@@ -1,5 +1,5 @@
 Meteor.startup(function () {
-  
+
   Assets.getText("_infos.json", function (err, infos) {
     Meteor.methods({
       infos: function () {
@@ -21,5 +21,5 @@ Meteor.startup(function () {
   Meteor.publish("all-posts", function () {
     return Posts.find();
   });
-  
+
 });

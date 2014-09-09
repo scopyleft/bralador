@@ -7,19 +7,21 @@ View a demo at [http://bralador.meteor.com](http://bralador.meteor.com).
 
 ## Installation
 
+Fork the contribution package :
+> git@github.com:scopyleft/bralador-contribution.git
+
 Open a terminal:
 ```bash
 $ curl https://install.meteor.com | /bin/sh
 $ cd ~
 $ git clone git@github.com:scopyleft/bralador.git
 $ cd bralador
-$ sudo -H npm install -g meteorite
-$ mrt update
-$ mrt run
+$ git clone git@github.com:pointbar/bralador-contribution.git packages/contribution
+$ meteor
 ```
 
 Open http://localhost:3000 in your browser.
-    
+
 ## Writing posts
 
 * Set the global information in /private/infos.js.
@@ -34,7 +36,7 @@ Open a terminal:
 $ cd ~/bralador-md
 $ meteor
 ```
-    
+
 Open http://localhost:3000 in your browser.
 
 ### Staging
@@ -43,7 +45,7 @@ Open a terminal:
 $ cd ~/bralador-md
 $ meteor deploy myblog.meteor.com
 ```
-    
+
 Open http://myblog.meteor.com in your browser.
 
 ### Production
@@ -54,7 +56,7 @@ Open a terminal:
 $ cd ~/bralador-md
 $ meteor deploy http://www.myblog.com
 ```
-    
+
 Open your url in your browser.
 
 ## RoadMap
