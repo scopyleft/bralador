@@ -17,6 +17,7 @@ $ cd ~
 $ git clone git@github.com:scopyleft/bralador.git
 $ cd bralador
 $ git clone git@github.com:pointbar/bralador-contribution.git packages/contribution
+$ cp private/_infos.json.sample private/_infos.json
 $ meteor
 ```
 
