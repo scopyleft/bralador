@@ -5,6 +5,7 @@ body {
 }
 
 .posts-list {
+  font-size: 19px;
   margin-top: 40px;
   background: transparent;
 }
