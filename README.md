@@ -17,7 +17,7 @@ $ cd ~
 $ git clone git@github.com:scopyleft/bralador.git
 $ cd bralador
 $ git clone git@github.com:pointbar/bralador-contribution.git packages/contribution
-$ cp private/_infos.json.sample private/_infos.json
+$ cp packages/blog/private/_infos.sample.json packages/blog/private/_infos.json
 $ meteor
 ```
 
@@ -25,7 +25,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Configure infos
 
-Open *private/_infos.json* file
+Open *packages/blog/private/_infos.json* file
 
 * "name": Name of your product, it appear in top left corner
 * "title": Window name
@@ -52,7 +52,7 @@ In second time, it tries to deploy on staging and production environment.
 ### Local
 Open a terminal:
 ```bash
-$ cd ~/bralador-md
+$ cd ~/bralador
 $ meteor
 ```
 
@@ -61,7 +61,7 @@ Open http://localhost:3000 in your browser.
 ### Staging
 Open a terminal:
 ```bash
-$ cd ~/bralador-md
+$ cd ~/bralador
 $ meteor deploy myblog.meteor.com
 ```
 
@@ -72,7 +72,7 @@ Buy a domain name and configure a CNAME to origin.meteor.com.
 
 Open a terminal:
 ```bash
-$ cd ~/bralador-md
+$ cd ~/bralador
 $ meteor deploy http://www.myblog.com
 ```
 
@@ -82,8 +82,6 @@ Open your url in your browser.
 MMD
 https://github.com/dtjm/node-multimarkdown
 https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide
-
-404
 
 - RSS Description
 
