@@ -5,7 +5,7 @@ Package.describe({
 Npm.depends({rss: '0.0.4'});
 
 Package.on_use(function (api) {
-  api.versionsFrom('METEOR@0.9.0.1');
+  api.versionsFrom('METEOR@0.9.1.1');
   api.add_files([
     'lib/server/rss-npm.js',
     'lib/server/rss.js',

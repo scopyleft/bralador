@@ -1,0 +1,10 @@
+{
+  "blog": {
+    "name": "BRALADOR",
+    "title": "Bralador : Markdown dead simple static blog engine"
+  },
+  "env": {
+    "name": "bralador",
+    "title": "http://www.bralador.com"
+  }
+}
