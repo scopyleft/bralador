@@ -1,12 +1,14 @@
 body {
   background: #F8F8F8;
   -webkit-font-smoothing: antialiased;
-  font-style: normal;
+  content: "medium";
 }
 
 .posts-list {
+  margin: 40px auto;
+  box-sizing: border-box;
+  width: 605px;
   font-size: 19px;
-  margin-top: 40px;
   background: transparent;
 }
 
@@ -25,39 +27,4 @@ body {
 
 .posts-list .panel-heading {
   border-bottom: 1px solid #aaa;
-}
-
-.post {
-  font-family: "Quattrocento", serif;
-  font-size: 19px;
-  line-height: 1.5;
-  color: rgba(0,0,0,0.8);
-  margin-bottom: 30px;
-}
-
-.post h1,
-.post h2,
-.post h3 {
-  font-family: 'Quattrocento Sans', sans-serif;
-  font-weight: 700;
-  line-height: 1.2;
-  margin-top: 40px;
-}
-
-.post h1 {
-  font-size: 40px;
-  line-height: 1;
-  margin-bottom: 8px;
-}
-
-.post h2 {
-  font-size: 36px;
-  margin-bottom: 4px;
-}
-
-.post h3 {
-  font-size: 30px;
-  font-weight: 300;
-  color: rgba(0,0,0,0.44);
-  margin-bottom: 2px;
 }
