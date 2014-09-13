@@ -8,3 +8,8 @@ Template.postsList.helpers({
     return (this.tagQuery);
   }
 });
+
+Template.postsList.rendered = function () {
+  $('.posts-list').hide();
+  $('.posts-list').fadeIn(500);
+};

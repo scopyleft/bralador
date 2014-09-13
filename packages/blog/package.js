@@ -9,6 +9,7 @@ Package.onUse(function (api, where) {
   api.use(['templating'], 'client');
 
   api.add_files(['private/_infos.json'], ['server'], {isAsset: true});
+  api.add_files(['public/cog07.svg'], ['client'], {isAsset: true});
   api.add_files(['lib/collections.js'], ['server', 'client']);
   api.add_files([
     'lib/server/posts.js',
@@ -16,6 +17,8 @@ Package.onUse(function (api, where) {
   ], ['server']);
   api.add_files([
     'lib/client/routes.js',
+    'lib/client/loading.css',
+    'lib/client/loading.html',
     'lib/client/post/post.html',
     'lib/client/post/post.css',
     'lib/client/post/post.js',

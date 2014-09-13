@@ -1,4 +1,8 @@
 Meteor.startup(function () {
+  Router.configure({
+    loadingTemplate: 'loading',
+    waitOn: function() { return Meteor.subscribe('all-posts'); },
+  });
   Router.map(function () {
     this.route('post', {
       path: '/article/:slug',
@@ -12,4 +16,5 @@ Meteor.startup(function () {
       }
     });
   });
+  Router.onBeforeAction('loading');
 });
