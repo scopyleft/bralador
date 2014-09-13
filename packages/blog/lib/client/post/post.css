@@ -5,8 +5,6 @@
   width: 605px;
   display: block;
   padding: 3rem 0px 10rem;
-  font-size: 1.3em;
-  line-height: 1.5;
   letter-spacing: 0.01rem;
   color: rgba(0,0,0,0.8);
 }
@@ -18,34 +16,38 @@
 }
 
 .post h1 {
-  font-size: 52px;
-  line-height: 60px;
-  margin-bottom: 1.2em;
-  font-weight: 400;
-  font-style: normal;
+  font-size: 5.375rem;
+  line-height: 7rem;
+  margin-top: 3.5rem;
+  margin-bottom: 1.75rem;
 }
 
 .post h2 {
-  font-size: 36px;
-  line-height: 46px;
-  margin-bottom: .8em;
+  font-size: 3.25rem;
+  line-height: 3.5rem;
+  margin-top: 3.5rem;
+  margin-bottom: 1.75rem;
 }
 
 .post h3 {
-  font-size: 28px;
-  line-height: 36px;
-  margin-bottom: .5em;
-  color: rgba(0,0,0,0.44);
+  font-size: 1.9375rem;
+  line-height: 3.5rem;
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
 }
 
 .post h4 {
-  margin-bottom: .5em;
-  font-weight: 600;
-  font-style: normal;
+  font-size: 1.1875rem;
+  line-height: 1.75rem;
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
 }
 
-.post p {
-  margin: 0 0 1.2em 0;
+p, ul, ol, pre, table, blockquote {
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+    font-size: 19px;
+  line-height: 1.473684211em;
 }
 
 .post a {
