@@ -2,6 +2,15 @@ body {
   background: #F2F6F2;
 }
 
+.main {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.main p {
+  padding: 0 15px;
+}
+
 .posts-list {
   margin: 40px auto;
   box-sizing: border-box;
