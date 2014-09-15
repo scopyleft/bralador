@@ -78,6 +78,12 @@ $ meteor deploy http://www.myblog.com
 
 Open your url in your browser.
 
+## Verify content it expose to crawler
+
+```bash
+$ curl 'http://localhost:3000/article/all_that?_escaped_fragment_='
+```
+
 ## RoadMap
 MMD
 https://github.com/dtjm/node-multimarkdown

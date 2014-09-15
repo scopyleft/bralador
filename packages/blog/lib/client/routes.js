@@ -9,6 +9,7 @@ Meteor.startup(function () {
       action: function () {
         if (this.data()) {
           this.render();
+          document.title = this.data().title;
         } else {
           this.render('notFound');
         }
@@ -16,7 +17,7 @@ Meteor.startup(function () {
       data: function () {
         return Posts.findOne(
           {slug: this.params.slug},
-          {fields: {content: 1}}
+          {fields: {content: 1, title: 1}}
         );
       }
     });
