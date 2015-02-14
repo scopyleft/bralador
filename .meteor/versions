@@ -44,6 +44,7 @@ observe-sequence@1.0.4
 ordered-dict@1.0.2
 pntbr:contribution@0.0.2
 pntbr:github-md@0.0.6
+pntbr:github-repo@0.0.1
 pntbr:rss@0.1.0
 random@1.0.2
 reactive-dict@1.0.5
