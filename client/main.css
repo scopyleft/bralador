@@ -1,37 +1,22 @@
 body {
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
   background: #F2F6F2;
 }
 
-.main {
+.block {
   margin: 0 auto;
-  width: 1000px;
+  margin-top: 40px;
+  opacity: 0.7;
 }
 
-.main p {
-  padding: 0 15px;
-}
-
-.posts-list {
-  margin: 40px auto;
-  box-sizing: border-box;
-  width: 605px;
-  font-size: 19px;
-  background: transparent;
-}
-
-.posts-list ul li {
+.block ul li {
   border: none;
-  background: transparent;
+  background: #F8F8F8;
 }
 
-.posts-list .panel-heading img {
-  vertical-align: baseline;
-}
-
-.posts-list ul li {
-  border: none;
-}
-
-.posts-list .panel-heading {
-  border-bottom: 1px solid #aaa;
+.panel-heading img,
+.panel-heading span {
+  padding-left: 10px;
+  font-size: 11px;
 }

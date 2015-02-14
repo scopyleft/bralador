@@ -1,0 +1,32 @@
+{
+  "jslint.options": {
+    "node": true,
+    "sloppy": true,
+    "indent": 2,
+    "nomen": true,
+    "maxlen": 80,
+    "es5": true,
+    "predef": [
+      "document",
+      "Template",
+      "Meteor",
+      "Assets",
+      "Session",
+      "Tinytest",
+      "Deps",
+      "Router",
+      "$",
+      "_",
+      "Package",
+      "localStorage",
+      "check",
+      "Npm",
+      "process",
+      "HTTP",
+      "Posts",
+      "Pages",
+      "RSS",
+      "serveRSS"
+    ]
+  }
+}

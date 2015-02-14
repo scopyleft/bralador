@@ -1,96 +1,82 @@
-# Bralador
-> His Master's voice
+# multiBàO
 
-Bralador is a dead simple viewer to publish your inspired posts in markdown.
+Centre de ressources collaboratives.
 
-View a demo at [http://bralador.meteor.com](http://bralador.meteor.com).
+Le site est accessible en production :
+> [http://www.multibao.org](http://www.multibao.org).
 
-## Installation
 
-Fork the contribution package :
-> git@github.com:scopyleft/bralador-contribution.git
+## Écrire une fiche outil
 
-Open a terminal:
+Créer vos textes en [markdown](http://fr.wikipedia.org/wiki) dans le dépot [multibao-contribution](https://github.com/scopyleft/multibao-contribution)
+
+vous pouvez également créer et gérer vos propres dépôts, contactez-nous pour plus de précisions.
+
+## Installation de multibao
+
+Multibao est accessible en ligne : [http://multibao.org](http://multibao.org)
+
+C'est un projet ouvert, tu peux donc sans état d'âme :
+
+* installer multibao chez toi à côté du radiateur
+* le mettre en production sur le serveur de ta grand-mère
+* modifier le code pour présenter tes supports de cours
+* changer le design pour vendre des croisières à Nosy-Be
+* créer un dépot et présenter toutes les recettes de l'Élysée depuis le second empire.
+
+Il te faudra mettre un peu les mains dans le camboui :
+
+Ouvre un terminal
+
+Si ce n'est déjà fait, installer [Meteor](http://meteor.com) :
 ```bash
 $ curl https://install.meteor.com | /bin/sh
-$ cd ~
-$ git clone git@github.com:scopyleft/bralador.git
-$ cd bralador
-$ git clone git@github.com:pointbar/bralador-contribution.git packages/contribution
-$ cp packages/blog/private/_infos.sample.json packages/blog/private/_infos.json
-$ meteor
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Pour installer multiBàO en local dans ton répertoire :
+```bash
+$ cd ~
+$ git clone https://github.com/scopyleft/multibao.git
+$ cd multibao
+```
 
-## Configure infos
-
-Open *packages/blog/private/_infos.json* file
-
-* "name": Name of your product, it appear in top left corner
-* "title": Window name
-* "menu_title": Title of posts menu
-
-* "staging": Meteor project name, it's deploy on : name.meteor.com
-* "prod": Domain name of production environment
+Tape l'url > [http://localhost:3000](http://localhost:3000) dans ton navigateur.
 
 
-## Writing posts
-
-[README](https://github.com/scopyleft/bralador-contribution/blob/master/README.md)
-
-## Deploy your website
-
-### Lazy deploy
-
-Just launch deploy script :
-$ ./deploy
-
-The script try to actualize github environment.
-In second time, it tries to deploy on staging and production environment.
+## Deployer votre site
 
 ### Local
-Open a terminal:
+Ouvrez votre terminal :
 ```bash
-$ cd ~/bralador
+$ cd ~/multibao
 $ meteor
 ```
 
-Open http://localhost:3000 in your browser.
+Tapez l'url > [http://localhost:3000](http://localhost:3000) dans votre navigateur.
 
-### Staging
-Open a terminal:
+### Pré-production
+Ouvrez votre terminal :
 ```bash
-$ cd ~/bralador
-$ meteor deploy myblog.meteor.com
+$ cd ~/multibao
+$ meteor deploy multimezig.meteor.com
 ```
 
-Open http://myblog.meteor.com in your browser.
+Ouvrez > http://multimezig.meteor.com dans votre navigateur.
 
 ### Production
-Buy a domain name and configure a CNAME to origin.meteor.com.
+Achetez un nom de domaine et configurer le CNAME pour le faire pointer vers origin.meteor.com.
 
-Open a terminal:
+Ouvrez votre terminal :
 ```bash
-$ cd ~/bralador
-$ meteor deploy http://www.myblog.com
+$ cd ~/multibao
+$ meteor deploy http://www.multimezig.com
 ```
 
-Open your url in your browser.
+## Gérer les ressources github avec JQ
 
-## Verify content it expose to crawler
-
-```bash
-$ curl 'http://localhost:3000/article/all_that?_escaped_fragment_='
-```
-
-## RoadMap
-MMD
-https://github.com/dtjm/node-multimarkdown
-https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide
-
-- RSS Description
+> https://stedolan.github.io/jq/tutorial/
 
 ## Copyright & License
 
-MIT.
+Le code source du site est sous licence : MIT.
+Les données sont soumises à des licences et des droits spécifiques selon leurs origines.

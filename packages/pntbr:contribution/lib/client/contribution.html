@@ -1,0 +1,26 @@
+<template name="repoList">
+  {{repo}}
+  <ul class="list-group">
+    {{#each contributions}}
+    <li class="list-group-item">
+      <a href="{{pathFor 'contribution' folder='contributions' slug=this.slug owner=this.repo.owner repo=this.repo.repo}}">{{title}}</a>
+    </li>
+    {{/each}}
+  </ul>
+</template>
+
+<template name="contributionList">
+  <ul class="list-group {{repo.repo}}">
+    {{#each contributions}}
+    <li class="list-group-item">
+      <a href="{{pathFor 'contribution' folder='contributions' slug=this.slug owner=this.repo.owner repo=this.repo.repo}}">{{title}}</a>
+    </li>
+    {{/each}}
+  </ul>
+</template>
+
+<template name="contributionContent">
+  <div id="contribution" class="post">
+    {{#markdown}}{{content}}{{/markdown}}
+  </div>
+</template>

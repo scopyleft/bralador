@@ -1,0 +1,14 @@
+<template name="repos">
+  {{#each repos}}
+    <nav id="posts-list" class="panel panel-info block {{title}}">
+      <header class="panel-heading">
+        <a href="" class="glyphicon glyphicon-list" id="{{repo}}"></a>
+        {{repo}}
+        <a class="pull-right" href="/feed.xml">
+          <img src="/feed-icon.png" alt="rss">
+        </a>
+      </header>
+      {{> contributionList repos=this}}
+    </nav>
+  {{/each}}
+</template>

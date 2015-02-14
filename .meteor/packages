@@ -4,11 +4,11 @@
 # but you can also edit it by hand.
 
 standard-app-packages
-chuangbo:marked
-ian:bootstrap-3
 iron:router
-blog
-rss
-contribution
-spiderable
-
+chuangbo:marked
+insecure
+ian:bootstrap-3
+http
+pntbr:contribution
+pntbr:rss
+pntbr:github-md
