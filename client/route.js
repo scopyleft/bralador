@@ -7,14 +7,7 @@ Meteor.startup(function () {
 
     this.route('home', {
       path: '/',
-      template: 'contributionContent',
-      data: function () {
-        return {
-          repo: github_repo.byLabel('gymkhana'),
-          folder: 'pages',
-          file: 'presentation.md'
-        };
-      }
+      template: 'canvas',
     });
   });
 });
