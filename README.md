@@ -1,30 +1,28 @@
-# multiBàO
+# Gymkhana
 
-Centre de ressources collaboratives.
+Atelier de jeux citoyens pour co-construire vos idées innovantes.
 
 Le site est accessible en production :
-> [http://www.multibao.org](http://www.multibao.org).
+> [http://www.gymkhana.fr](http://www.gymkhana.fr).
 
 
-## Écrire une fiche outil
+## Écrire une fiche d'atelier
 
-Créer vos textes en [markdown](http://fr.wikipedia.org/wiki) dans le dépot [multibao-contribution](https://github.com/scopyleft/multibao-contribution)
+Créer vos textes en [markdown](http://fr.wikipedia.org/wiki) dans le dépot [gymkhana-contenu](https://github.com/gymkhana-fr/gymkhana-contenu)
 
-vous pouvez également créer et gérer vos propres dépôts, contactez-nous pour plus de précisions.
+## Installation de gymkhana
 
-## Installation de multibao
-
-Multibao est accessible en ligne : [http://multibao.org](http://multibao.org)
+Gymkhana est accessible en ligne : [http://www.gymkhana.fr](http://www.gymkhana.fr)
 
 C'est un projet ouvert, tu peux donc sans état d'âme :
 
-* installer multibao chez toi à côté du radiateur
-* le mettre en production sur le serveur de ta grand-mère
+* jouer à créer des idées pas innovantes
 * modifier le code pour présenter tes supports de cours
-* changer le design pour vendre des croisières à Nosy-Be
+* changer le design pour vendre des hackatons aux institutions
 * créer un dépot et présenter toutes les recettes de l'Élysée depuis le second empire.
+* tenter de gagner un startup-weekend
 
-Il te faudra mettre un peu les mains dans le camboui :
+Pour l'installer il te faudra mettre un peu les mains dans le camboui :
 
 Ouvre un terminal
 
@@ -33,11 +31,11 @@ Si ce n'est déjà fait, installer [Meteor](http://meteor.com) :
 $ curl https://install.meteor.com | /bin/sh
 ```
 
-Pour installer multiBàO en local dans ton répertoire :
+Pour installer gymkhana en local dans ton répertoire :
 ```bash
 $ cd ~
-$ git clone https://github.com/scopyleft/multibao.git
-$ cd multibao
+$ git clone https://github.com/gymkhana-fr/gymkhana.git
+$ cd gymkhana
 ```
 
 Tape l'url > [http://localhost:3000](http://localhost:3000) dans ton navigateur.
@@ -48,7 +46,7 @@ Tape l'url > [http://localhost:3000](http://localhost:3000) dans ton navigateur.
 ### Local
 Ouvrez votre terminal :
 ```bash
-$ cd ~/multibao
+$ cd ~/gymkhana
 $ meteor
 ```
 
@@ -57,7 +55,7 @@ Tapez l'url > [http://localhost:3000](http://localhost:3000) dans votre navigate
 ### Pré-production
 Ouvrez votre terminal :
 ```bash
-$ cd ~/multibao
+$ cd ~/gymkhana
 $ meteor deploy multimezig.meteor.com
 ```
 
@@ -68,7 +66,7 @@ Achetez un nom de domaine et configurer le CNAME pour le faire pointer vers orig
 
 Ouvrez votre terminal :
 ```bash
-$ cd ~/multibao
+$ cd ~/gymkhana
 $ meteor deploy http://www.multimezig.com
 ```
 
