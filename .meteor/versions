@@ -5,6 +5,7 @@ binary-heap@1.0.2
 blaze@2.0.4
 blaze-tools@1.0.2
 boilerplate-generator@1.0.2
+bootstrap@1.0.0
 callback-hook@1.0.2
 check@1.0.4
 chuangbo:marked@0.3.5
@@ -46,6 +47,7 @@ pntbr:contribution@0.0.2
 pntbr:contribution-list@0.0.1
 pntbr:github-md@0.0.6
 pntbr:github-repo@0.0.1
+pntbr:lean-canvas@0.0.1
 pntbr:rss@0.1.0
 random@1.0.2
 reactive-dict@1.0.5
